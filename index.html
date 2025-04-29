@@ -9,3 +9,53 @@
 	I also love to tinker with microcontrollers, Raspberry Pi Pico (W), ESP32, ESP32CAM, sensor nodes and micropython.</p>
 </body>
 </html>
+
+--
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Me</title>
+	<style>
+		body {
+			background-color: #ffffff;
+			color: #000000;
+			transition: background-color 0.5s, color 0.5s;
+		}
+		
+		.dark-mode {
+			background-color: #000000;
+			color: #ffffff;
+		}
+		
+		.button {
+			background-color: #cccccc;
+			border: none;
+			padding: 10px 20px;
+			cursor: pointer;
+		}
+		
+		.button:hover {
+			background-color: #aaaaaa;
+		}
+	</style>
+</head>
+<body>
+	<h3> About Me</h3>
+<body>
+	<p>
+	Hi, I am a Berlin based automation engineer / data engineer focusing on python development. 
+	I am currently developing and maintaining ETL pipelines.
+	I also love to tinker with microcontrollers, Raspberry Pi Pico (W), ESP32, ESP32CAM, sensor nodes and micropython.
+	</p>
+</body>
+	<button class="button" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+	
+	<script>
+		function toggleDarkMode() {
+			document.body.classList.toggle("dark-mode");
+		}
+	</script>
+</body>
+</html>
+
